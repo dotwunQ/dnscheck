@@ -1,4 +1,4 @@
-#!/home/matt/workspace/personal/netdevops-projects/dnscheck/.venv/bin/python3
+#!/usr/bin/env python3
 """
 dnscheck — Multi-resolver DNS comparison tool.
 
