@@ -1,0 +1,22 @@
+# DNS resolvers for dnscheck
+# Format: list of {name, ip}
+
+resolvers:
+  - name: Google
+    ip: 8.8.8.8
+  - name: Google-2
+    ip: 8.8.4.4
+  - name: Cloudflare
+    ip: 1.1.1.1
+  - name: Cloudflare-2
+    ip: 1.0.0.1
+  - name: Quad9
+    ip: 9.9.9.9
+  - name: OpenDNS
+    ip: 208.67.222.222
+
+  # Add your internal/custom resolvers:
+  # - name: Internal-1
+  #   ip: 192.168.1.1
+  # - name: Internal-2
+  #   ip: 192.168.1.2
